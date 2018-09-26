@@ -7,7 +7,7 @@ use std::string::String;
 use std::io::ErrorKind;
 use byteorder::{ReadBytesExt, LittleEndian};
 
-#[derive (Copy)]
+#[derive (Clone, Copy)]
 pub struct Packet {
 // magic : u32 == 0xAABBCCDD
 pub forward_backward : f32,
