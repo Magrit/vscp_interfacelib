@@ -1,5 +1,5 @@
 [package]
-name = "vscp"
+name = "vscp_udp"
 version = "0.1.0"
 authors = ["Magrit <mikael.pettersson201@gmail.com>"]
 
